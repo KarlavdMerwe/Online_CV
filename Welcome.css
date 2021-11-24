@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADERS */
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center
+    
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    justify-content: center
+  }
+
+/* BUTTONS */
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #33576b;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #33576b;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #33576b;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+/* UTILITIES */
+  
+div{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
