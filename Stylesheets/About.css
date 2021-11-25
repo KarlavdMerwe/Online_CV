@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADERS */
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center
+    
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center
+  }
+
+  p{
+      margin-top: 0%;
+      font-size: 2rem;
+      color: white;
+      font-weight: lighter;
+      display: flex;
+      text-align: center;
+  }
+
+/* UTILITIES */
+
+.container{
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex;
+    /*align-items: center;*/
+    height: 400px;
+    justify-content: center;
+  }
