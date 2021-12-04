@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADERS */
+
+h1 {
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center
+    
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center
+  }
+
+  p{
+      margin-top: 0%;
+      font-size: 2rem;
+      color: white;
+      font-weight: lighter;
+      display: flex;
+      text-align: center;
+  }
+
+
+/* UTILITIES */
+
+.container{
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .center {
+    display: flex;
+    /*align-items: center;*/
+    height: 400px;
+    justify-content: center;
+  }
+
+.containerLinks{
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 12px);
+  grid-template-columns: repeat(3, auto);
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 1rem 0;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 0.1rem solid #33576b;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #33576b;
+    background-color: #33576b;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #33576b;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+
+  .btn img{
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* TOOLTIPS */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #33576b;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #57788b;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
